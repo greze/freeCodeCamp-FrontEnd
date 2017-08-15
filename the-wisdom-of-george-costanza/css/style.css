@@ -1,0 +1,89 @@
+body {
+  font-family: 'Lora', serif;
+  background-color: rgb(72, 106, 70);
+}
+
+h1 {
+  padding: 1%;
+  color: black;
+  
+}
+img {
+  float: left;
+  padding: 1%;
+  max-height: 10%;
+  margin-left: 10%;
+}
+.quote-box {
+  float: right;
+  margin-top: 3%;
+  padding: 5%;
+  width: 30%;
+  height: 3%;
+  border: 1px solid black;
+  margin-right: 15%;
+  
+}
+.getQuote {
+  float: left;
+  margin-left: 2%;
+  margin-top: 5%;
+  background-color: rgb(0, 102, 102);
+}
+
+.getQuote:hover {
+  background-color: black;
+}
+
+.quoteText {
+  color: black;
+  font-size: 150%;
+}
+
+.tweet{
+  float: right;
+  margin-right: 2%;
+  margin-top: 1%;
+  color: white;
+}
+.tweet:hover {
+  color: blue;
+}
+
+@media (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 110%;
+  }
+  
+  img {
+    max-height: 40%;
+  }
+  .getQuote {
+    position: fixed;
+    
+    margin-top: 60%;
+    left: 10%;
+  }
+  
+  .quoteBox {
+   
+    padding: 1%;
+    margin-bottom: 1%;
+    height: 20%;
+    margin-right: 3%;
+    width: 45%;
+  }
+  
+  .quoteText {
+    font-size: 70%;
+  }
+  .tweet {
+    position: fixed;
+    margin-top: 60%;
+    left: 38%;
+  }
+}

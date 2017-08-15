@@ -1,0 +1,42 @@
+body {
+  font-family: 'Lora', serif;
+  background-color: #BAD;
+}
+
+#screen {
+  background-color: yellow;
+  height: 75px;
+  width: 250px;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+#calButs {
+  background-color: grey;
+  width: 250px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#steps {
+  padding-left: 50px;
+  font-size: 2em;
+}
+
+.bigBut {
+  width: 4em;
+}
+a {
+  margin: 5px;
+  width: 2.6vm;
+  height: 2.6vm;
+  padding: 2em;
+}

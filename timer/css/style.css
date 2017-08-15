@@ -1,0 +1,39 @@
+body {
+  font-family: 'Lora', serif;
+  background-color: rgb(72, 106, 70);
+  color: black;
+}
+
+#relax {
+  float: left;
+  margin-left: 35%;
+}
+
+#work {
+  float: right;
+  margin-right: 35%;
+}
+
+#relax, #work, #reset {
+  font-size: 20px;
+}
+
+.plusMinus {
+  color: white;
+}
+
+#clock {
+  margin-top: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  height: 400px;
+  width: 400px;
+  line-height: 400px;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
