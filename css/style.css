@@ -1,0 +1,78 @@
+body {
+  margin: 1%;
+  background-color: rgb(72, 106, 70);
+  font-family: 'Lora', serif;
+}
+
+h1 {
+  background: rgb(125, 220, 160);
+  padding: 1%;
+}
+
+article {
+  padding: 1%;
+  background: rgb(150, 150, 150);
+  color: black;
+}
+
+
+blockquote {
+  border: rgb(70, 70, 70) 5px solid;
+  height: 10%;
+  
+}
+
+.wiki, a {
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+@media (min-width: 320px) {
+  
+  img {
+    width: 80%;
+  }
+  
+  #caption, h3 {
+    font-size: 12px;
+  }
+  
+  article {
+    padding: 5%;
+  }
+  
+  h2 {
+    text-align: justify;
+    font-size: 16px;
+    margin: 1%;
+  }
+  
+  iframe {
+    width: 100%;
+    margin: auto;
+  }
+  
+}
+
+@media (min-width: 1366px) {
+  
+  img {
+    width: 70%;
+  }
+  
+  #caption, h3 {
+    font-size: 16px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  iframe {
+    width: 100%;
+  }
+  
+}
