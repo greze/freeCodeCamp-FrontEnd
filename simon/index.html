@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="containter-fluid">
+  <h1 class="text-center">simon ripoff</h1>
+  </br>
+  <div class="settings" id="counter" role="button">00</div>
+  <div class="circle" id="orange" role="button" onClick="addToPlayer(this.id)"></div>
+  <br/>
+  <div class="row-wrap">
+    <div class="row">
+      <div class="col-md-3 circle" id="yellow" role="button" onClick="addToPlayer(this.id)"></div>
+      <div class="col-md-3 settings" id="go" role="button">go</div>
+      <div class="col-md-3 settings" id="hard" role="button" onClick="hard()">hard</div>
+      <div class="col-md-3 circle" id="blue" role="button" onClick="addToPlayer(this.id)"></div>
+    </div>
+  </div>
+  <br/>
+  <div class="circle" id="purple" role="button" onClick="addToPlayer(this.id)"></div>
+  <br/>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

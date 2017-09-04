@@ -1,0 +1,60 @@
+body {
+  font-family: 'Lora', serif;
+  background-color: rgb(72, 106, 70);
+  color: black;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.settings {
+  text-align: center;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+#counter {
+  margin-left: 30%;
+  margin-top: 2%;
+  float: left;
+}
+
+#go {
+  margin: 5%;
+}
+
+#hard {
+  margin: 5%;
+}
+
+.row-wrap {
+  margin: auto;
+  max-width: 400px;
+}
+
+#orange {
+  border: 3px solid rgb(255, 153, 51);
+  margin: 0 auto;
+}
+
+#yellow {
+  border: 3px solid rgb(255, 255, 102);
+  margin-left: 5%;
+}
+
+#blue {
+  border: 3px solid rgb(128, 255, 255);
+}
+
+#purple {
+  border: 3px solid #BAD;
+  margin: 0 auto;
+}
