@@ -1,0 +1,207 @@
+body {
+  background-color: #A9D0F5;
+  font-family: 'Lora', serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 1% 0 1% 0;
+  padding: 1%;
+  background-color: rgb(72, 106, 70, .8);
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-items a {
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+}
+
+.navbar-items a:hover {
+  background-color: #0a330c;
+}
+/*about*/
+
+#about {
+  margin-top: 5%;
+}
+
+#profile {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+#bio {
+  padding: 1%;
+  text-align: justify;
+  margin-top: 20%;
+}
+
+/*writing page*/
+
+.heading {
+  text-align: center;
+}
+
+#writingPage p {
+  margin: 0 auto;
+  width: 60%;
+}
+
+#writingPage a {
+  color: black;
+  text-decoration: none;
+}
+
+#writingPage a:hover {
+  color: #FF8000;
+}
+/*programming page*/
+
+#programming {
+  padding-top: 5%;
+  height: 1000px;
+}
+
+.grid-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+#codingHistory {
+  margin: 5% 10% 5% 10%;
+  text-align: justified;
+}
+
+#codingHistory a {
+  color: white;
+  text-decoration: none;
+}
+
+#codingHistory a:hover {
+  color: yellow;
+}
+
+#codingPortfolio {
+  text-align: center;
+  font-size: 12px;
+}
+
+#codingPortfolio a {
+  color: black;
+  text-decoration: none;
+}
+
+#codingPortfolio a:hover {
+  color: #FF8000;
+}
+
+.row:before, .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+  float: left;
+  min-height: 1px;
+  width: 33.33%;
+}
+
+#joa {
+  width: 70%;
+}
+
+#george {
+  width: 35%;
+}
+
+#timer {
+  width: 40%;
+}
+
+#tic {
+  width: 60%;
+}
+
+#calc {
+  width: 25%;
+}
+
+#simon {
+  width: 50%;
+}
+
+/*contact*/
+
+#contact {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 20px;
+}
+
+#contact a {
+  color: white;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: yellow;
+}
+
+@media (min-width: 320px) {
+  .navbar {
+    font-size: 10px;
+  }
+
+  #about {
+    height: 568;
+  }
+
+  #profile {
+    width: 200px;
+  }
+  
+  
+
+}
+
+@media (min-width: 1336px) {
+  .navbar {
+    font-size: 20px;
+  }
+
+  #about {
+    height: 800px;
+  }
+
+  #profile {
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
+  }
+
+  #bio {
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  #codingHistory {
+    font-size: 20px;
+  }
+  
+  #codingPortfolio {
+    font-size: 20px;
+  }
+  
+  #programming {
+    height: 1200px;
+  }
+}
