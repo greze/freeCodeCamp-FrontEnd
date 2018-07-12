@@ -1,0 +1,41 @@
+body {
+  background-color: #60431f;
+}
+
+#navbar {
+  background-color: #b0934d;
+}
+
+#welcome-section {
+  background-color: #92e181;
+  height: 100vh;
+  padding-top: 7%;
+}
+
+#projects {
+  background-color: #e1c292;
+  
+}
+
+#contact {
+  background-color: #b0934d;
+  
+}
+
+img {
+  width: 50%;
+}
+
+a {
+  color: #60431f;
+}
+
+a:hover {
+  color: white;
+}
+
+@media screen and (min-width: 700px) {
+  a:hover {
+    color: #60431f;
+  }
+}
